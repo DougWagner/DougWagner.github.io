@@ -24,35 +24,67 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link" href="#skills">Skills/knowledge</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="nav-link dropdown-toggle" id="portfolio-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                        <div class="dropdown-menu" aria-labelledby="portfolio-dropdown">
+                            <a class="dropdown-item" href="https://github.com/DougWagner/DougWagner.github.io">This site</a>
+                            <a class="dropdown-item" href="https://github.com/DougWagner/DoogOS">DoogOS</a>
+                            <a class="dropdown-item" href="https://github.com/DougWagner/Subnet-Messenger">Subnet Messenger</a>
+                            <a class="dropdown-item" href="#portfolio">More</a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Résumé</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
 
         <div class="container">
 
-            <div class="introduction">
+            <div class="introduction" id="home">
                 <h1>Douglas J Wagner</h1>
-                <p class="lead">This is a WIP portfolio/resume webpage using the Bootstrap starter template.</p>
+                <p class="lead">A prospective software engineer located in the San Francisco Bay Area</p>
+            </div>
+
+            <div class="about-me" id="about">
+                <h2>About Me</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula viverra metus. Etiam in vestibulum ipsum, ac dignissim libero. Morbi vel tortor hendrerit, mattis nunc ut, ornare dolor. Ut porttitor, augue in pellentesque facilisis, massa mauris faucibus lorem, eget tincidunt nisi massa sit amet urna. Donec eu libero vel nisl tempor ultrices at at diam. Cras pellentesque non purus vel consectetur. Sed eget molestie leo. Ut scelerisque nibh non tortor congue, non suscipit augue congue. Nunc suscipit libero accumsan facilisis vulputate. Etiam ornare, felis sit amet feugiat rhoncus, est nulla pellentesque mauris, eu vulputate est lectus vel diam. Maecenas vel congue ipsum. Etiam scelerisque, dolor eu mattis aliquam, nibh lacus finibus lectus, quis tempus dui turpis nec purus. Curabitur vel tortor ipsum. Maecenas lacinia porttitor molestie. Ut pulvinar dolor at risus consectetur pulvinar. Fusce posuere mauris ut dui scelerisque vulputate.</p>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla gravida enim eget ullamcorper. Suspendisse fermentum, enim id mollis porttitor, augue lectus consequat nulla, vitae sagittis augue nisl id felis. Morbi interdum, tellus vitae semper commodo, justo justo viverra mauris, suscipit laoreet mi elit id ex. Proin mattis blandit interdum. Donec nec purus vel velit suscipit iaculis. Donec odio augue, consectetur vel velit eget, sollicitudin rhoncus mi. Pellentesque bibendum turpis sed lorem aliquet maximus. In at elit nibh.</p>
+                <p class="lead">In hac habitasse platea dictumst. Vivamus vehicula luctus lacus, vitae vehicula sem ultrices et. Duis mattis magna sed leo fringilla, nec congue sapien laoreet. Cras laoreet leo gravida nisi molestie, ut viverra lectus luctus. Nulla viverra, nisl aliquet ullamcorper euismod, ligula tortor mollis lorem, at aliquet sapien purus sit amet nisi. Donec convallis eros velit, et finibus felis pellentesque vitae. Quisque sit amet justo orci. Nam eget mauris sit amet mauris interdum aliquet vel vitae lorem. Fusce sollicitudin iaculis lectus. Sed malesuada condimentum blandit.</p>
+                <p class="lead">Mauris id ante vel erat dictum iaculis. Morbi pretium magna a venenatis efficitur. Aenean faucibus sem a purus tempor, et varius urna lobortis. Etiam et est hendrerit justo faucibus rhoncus. Donec posuere libero ut nisi ornare tempor. Morbi gravida mauris eleifend dignissim faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis tellus at sem gravida, id venenatis est pulvinar. Morbi sed gravida enim, sed rhoncus elit. Nulla pretium tellus ut cursus tempor. Curabitur a viverra ante. Nulla eros nibh, pulvinar vel luctus vitae, auctor quis metus. Quisque sed urna lacinia, tincidunt leo nec, scelerisque est.</p>
+                <p class="lead">Morbi id mi sed velit maximus fringilla. Quisque quis dignissim nunc. Sed mattis iaculis pulvinar. Fusce varius id tortor quis commodo. Phasellus ac malesuada quam. Maecenas et sapien nec elit consectetur imperdiet in eget urna. Phasellus tincidunt imperdiet neque eget elementum. Integer rutrum erat et molestie posuere. Vestibulum nec sem maximus nibh tincidunt rutrum non non massa. Fusce viverra congue lorem nec porttitor.</p>
+            </div>
+
+            <div class="skills-knowledge" id="skills">
+                <h2>Skills and Knowledge</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam quam, consectetur volutpat nibh at, sagittis mollis nulla. Nunc id porta ante. Donec auctor, lorem eu efficitur dignissim, elit nulla congue ante, congue facilisis augue erat id risus. Nulla facilisi. Ut vitae consequat erat. Morbi volutpat sem vitae ex mattis molestie tristique vitae magna. Phasellus egestas rhoncus justo quis tincidunt. Nunc sed enim congue, posuere lectus et, placerat tortor. Aliquam purus orci, pharetra a tortor vel, posuere vehicula ipsum.</p>
+            </div>
+
+            <div class="portfolio" id="portfolio">
+                <h2>Portfolio</h2>
+                <p class="lead">Some projects I have worked on can be found on my <a href="https://github.com/DougWagner">GitHub</a>.</p>
+            </div>
+
+            <div class="resume" id="resume">
+                <h2>Résumé</h2>
+                <p class="lead">A link to my résumé will be here in the future.</p>
+            </div>
+
+            <div class="contact-info" id="contact">
+                <h2>Contact Info</h2>
+                <p class="lead">My phone number and email will be here in the future.</p>
             </div>
 
         </div><!-- /.container -->
