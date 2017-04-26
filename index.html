@@ -21,6 +21,7 @@
             </button>
             <a class="navbar-brand" href="#">Douglas J Wagner</a>
 
+            <!-- class basic-nav-link only exists to prevent dropdown-toggle from causing navbar-collapse to collapse on click -->
             <div class="collapse navbar-collapse" id="menuNavbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -58,7 +59,7 @@
                 <p class="lead">A prospective software engineer located in the San Francisco Bay Area</p>
             </div>
 
-            <div class="about-me" id="about">
+            <div class="textwall" id="about">
                 <h2>About Me</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula viverra metus. Etiam in vestibulum ipsum, ac dignissim libero. Morbi vel tortor hendrerit, mattis nunc ut, ornare dolor. Ut porttitor, augue in pellentesque facilisis, massa mauris faucibus lorem, eget tincidunt nisi massa sit amet urna. Donec eu libero vel nisl tempor ultrices at at diam. Cras pellentesque non purus vel consectetur. Sed eget molestie leo. Ut scelerisque nibh non tortor congue, non suscipit augue congue. Nunc suscipit libero accumsan facilisis vulputate. Etiam ornare, felis sit amet feugiat rhoncus, est nulla pellentesque mauris, eu vulputate est lectus vel diam. Maecenas vel congue ipsum. Etiam scelerisque, dolor eu mattis aliquam, nibh lacus finibus lectus, quis tempus dui turpis nec purus. Curabitur vel tortor ipsum. Maecenas lacinia porttitor molestie. Ut pulvinar dolor at risus consectetur pulvinar. Fusce posuere mauris ut dui scelerisque vulputate.</p>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla gravida enim eget ullamcorper. Suspendisse fermentum, enim id mollis porttitor, augue lectus consequat nulla, vitae sagittis augue nisl id felis. Morbi interdum, tellus vitae semper commodo, justo justo viverra mauris, suscipit laoreet mi elit id ex. Proin mattis blandit interdum. Donec nec purus vel velit suscipit iaculis. Donec odio augue, consectetur vel velit eget, sollicitudin rhoncus mi. Pellentesque bibendum turpis sed lorem aliquet maximus. In at elit nibh.</p>
@@ -67,22 +68,40 @@
                 <p class="lead">Morbi id mi sed velit maximus fringilla. Quisque quis dignissim nunc. Sed mattis iaculis pulvinar. Fusce varius id tortor quis commodo. Phasellus ac malesuada quam. Maecenas et sapien nec elit consectetur imperdiet in eget urna. Phasellus tincidunt imperdiet neque eget elementum. Integer rutrum erat et molestie posuere. Vestibulum nec sem maximus nibh tincidunt rutrum non non massa. Fusce viverra congue lorem nec porttitor.</p>
             </div>
 
-            <div class="skills-knowledge" id="skills">
+            <div class="textwall" id="skills">
                 <h2>Skills and Knowledge</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam quam, consectetur volutpat nibh at, sagittis mollis nulla. Nunc id porta ante. Donec auctor, lorem eu efficitur dignissim, elit nulla congue ante, congue facilisis augue erat id risus. Nulla facilisi. Ut vitae consequat erat. Morbi volutpat sem vitae ex mattis molestie tristique vitae magna. Phasellus egestas rhoncus justo quis tincidunt. Nunc sed enim congue, posuere lectus et, placerat tortor. Aliquam purus orci, pharetra a tortor vel, posuere vehicula ipsum.</p>
             </div>
 
-            <div class="portfolio" id="portfolio">
+            <div class="portfolio-grid" id="portfolio">
                 <h2>Portfolio</h2>
-                <p class="lead">Some projects I have worked on can be found on my <a href="https://github.com/DougWagner">GitHub</a>.</p>
+                <div class="row">
+                    <div class="card col-sm" style="padding: 1rem 1rem">
+                        <img class="card-img-top img-fluid" src="img/doogos-sample.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">DoogOS</h4>
+                            <p class="card-text">A WIP hobby os for x86 cpu architecture using C and Assembly</p>
+                            <a href="https://github.com/DougWagner/DoogOS" class="btn btn-primary">View repo</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm" style="padding: 1rem 1rem">
+                        <img class="card-img-top img-fluid" src="img/subnet-messenger-sample.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Subnet Messenger</h4>
+                            <p class="card-text">A TCP/UDP chat application in C# .NET using the WPF graphics framework</p>
+                            <a href="https://github.com/DougWagner/Subnet-Messenger" class="btn btn-primary">View repo</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="lead">More repositories, along with the source to this webpage, can be found on my <a href="https://github.com/DougWagner">GitHub</a>.</p>
             </div>
 
-            <div class="resume" id="resume">
+            <div class="link-grid" id="resume">
                 <h2>Résumé</h2>
                 <p class="lead">A link to my résumé will be here in the future.</p>
             </div>
 
-            <div class="contact-info" id="contact">
+            <div class="link-grid" id="contact">
                 <h2>Contact Info</h2>
                 <p class="lead">My phone number and email will be here in the future.</p>
             </div>
